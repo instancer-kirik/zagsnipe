@@ -1,6 +1,6 @@
 # Video Editor 🎬
 
-A modern browser-based video recorder and editor inspired by TikTok, built with Godot and Zig for high performance and smooth user experience.
+A modern browser-based video recorder and editor inspired by TikTok, built with Godot and Zig for high performance and smooth user experience. and since gd is good at shaders
 
 ## Features
 
@@ -49,7 +49,8 @@ Video Editor combines the power of Godot's UI framework with Zig's WebAssembly p
    cd video-editor
    ```
 
-2. **Build the Zig WebAssembly module**:
+2. **Don't Build the Zig WebAssembly module**:
+this is actually suboptimal and just introduces abstraction; godot handles web targets faster anyways. 
    ```bash
    cd zig
    zig build
